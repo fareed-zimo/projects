@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .padding_zifi {
+    @apply px-[18px] lg:px-[25px] xl:px-[30px] 2xl:px-[50px];
+  }
+}
+
+.firstColumnWidth {
+  @apply w-[30%] lg:w-[20%] whitespace-nowrap;
+}
+
+.SvgColorTransition {
+  @apply transition duration-1000 ease-in-out;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ff0066;
+  z-index: 0;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+    background 0.3s ease-in-out; /* Smooth transition for size changes */
+}
+.circle-active {
+  width: 70px;
+  height: 70px;
+  background: #2819f7;
+}
+
+.progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: white;
+  bottom: 100px;
+}

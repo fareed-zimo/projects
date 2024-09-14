@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Sotheby",
+    "image": "/assets/temp/background_carousel/1.jpg",
+    "amount": "£8,000,000 GBP",
+    "agent_logo": "/assets/temp/agents_logos/Sotherbys.svg",
+    "address": "SHELTON STREET, COVENT GARDEN, London, WC2H, UNITED KINGDOM"
+  },
+  {
+    "id": 2,
+    "name": "Savills",
+    "image": "/assets/temp/background_carousel/2.jpg",
+    "amount": "£15,000,000 GBP",
+    "agent_logo": "/assets/temp/agents_logos/Savills.svg",
+    "address": "Buckingham Gate, Westminster, London, SW1E, UNITED KINGDOM"
+  },
+  {
+    "id": 3,
+    "name": "Barnes",
+    "image": "/assets/temp/background_carousel/3.jpg",
+    "amount": "£12,000,000 GBP",
+    "agent_logo": "/assets/temp/agents_logos/Barnes_IR.svg",
+    "address": "Belgravia Gate, Grosvenor Crescent, Belgravia, London, SW1X, UNITED KINGDOM"
+  },
+  {
+    "id": 4,
+    "name": "ColdWell Banker",
+    "image": "/assets/temp/background_carousel/4.jpg",
+    "amount": "£7,500,000 GBP",
+    "agent_logo": "/assets/temp/agents_logos/CB.svg",
+    "address": "Brick Street, Mayfair, London, W1J, UNITED KINGDOM"
+  },
+  {
+    "id": 5,
+    "name": "Christies",
+    "image": "/assets/temp/background_carousel/5.jpg",
+    "amount": "£9,875,000 GBP",
+    "agent_logo": "/assets/temp/agents_logos/Christies_IRE.svg",
+    "address": "Addison Road, Holland Park, W14, UNITED KINGDOM"
+  },
+  {
+    "id": 6,
+    "name": "Engel & Volkers",
+    "image": "/assets/temp/background_carousel/6.jpg",
+    "amount": "$13,000,000 USD",
+    "agent_logo": "/assets/temp/agents_logos/E&V.svg",
+    "address": "Washington Street, New York, NY, 10013, UNITED STATES"
+  },
+  {
+    "id": 7,
+    "name": "Fine Country",
+    "image": "/assets/temp/background_carousel/7.jpg",
+    "amount": "$7,500,000 USD",
+    "agent_logo": "/assets/temp/agents_logos/F&C.svg",
+    "address": "South Flagler House, West Palm Beach, Florida, 33401, UNITED STATES"
+  },
+  {
+    "id": 8,
+    "name": "Fine Country",
+    "image": "/assets/temp/background_carousel/8.jpg",
+    "amount": "£30,000,000 GBP",
+    "agent_logo": "/assets/temp/agents_logos/John_Taylor.svg",
+    "address": "Signature Villas, Palm Jumeirah, DUBAI, UAE"
+  }
+]

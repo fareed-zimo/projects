@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.travelSpan {
+  clip-path: polygon(0 0, 100% 0, 100% 115%, 0% 100%);
+}
+
+.overlay_div {
+  @apply absolute bg-white w-full h-full opacity-60;
+}

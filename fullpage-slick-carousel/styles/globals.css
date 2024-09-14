@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .container__padding {
+    @apply px-2 lg:px-4 2xl:px-10;
+  }
+  .background-carousel {
+    .swiper {
+      @apply w-full h-full;
+    }
+
+    .swiper-slide img {
+      @apply block w-full h-full object-cover;
+    }
+    .swiper-fade {
+      pointer-events: none;
+    }
+    .swiper-pagination-horizontal.swiper-pagination-bullets {
+      @apply absolute inset-0 top-[15%] lg:top-[18%] 2xl:top-[18%] flex flex-col items-end container__padding right-0 space-y-[2.5vh] 2xl:space-y-[20.7px];
+    }
+
+    .swiper-pagination-bullet {
+      @apply h-[30px] 2xl:h-[5.277dvh] w-[2px] 2xl:w-[3px] opacity-50 bg-white relative rounded-none pointer-events-auto touch-auto;
+      --swiper-pagination-bullet-horizontal-gap: 0px;
+    }
+    .swiper-pagination-bullet-active {
+      @apply opacity-100 bg-white/50;
+      &::after {
+        content: "";
+        @apply h-0 absolute top-0 left-0 w-full bg-white;
+        animation: expandHeight 16s forwards;
+      }
+    }
+  }
+
+  @keyframes expandHeight {
+    from {
+      height: 0%;
+    }
+    to {
+      height: 100%;
+    }
+  }
+}

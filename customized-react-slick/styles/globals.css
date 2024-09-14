@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slider > div {
+  @apply overflow-visible overflow-x-clip;
+}
